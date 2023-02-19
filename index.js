@@ -21,4 +21,4 @@ const listener = app.listen(process.env.PORT, () => {
     console.log('Tu app está escuchando en el puerto ' + listener.address().port);
 });
 
-client.login('MTA3NjYxMTcxMDQwMTY1NDk0NA.G-S7_b.SEkdJ3dMp8-aCUddmyZ-gVczv1jSckQw5wyGY0');
+client.login(process.env.DISCORD_TOKEN);
